@@ -5,7 +5,8 @@ import { StoreComponent } from './components/store/store.component';
 import { ContactosComponent } from './components/contactos/contactos.component';
 import { AyudaComponent } from './components/ayuda/ayuda.component';
 
-const routes: Routes = [
+const routes: Routes = 
+[ {path:'',redirectTo:'inicio',pathMatch:'full'},
   {path:'inicio',component:InicioComponent},
   {path:'store',component:StoreComponent},
   {path:'contactos',component:ContactosComponent},

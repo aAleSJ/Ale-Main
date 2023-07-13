@@ -1,1 +1,55 @@
-<p>store works!</p>
+<main class="container">
+    <form class="cont-main">
+        <h2>HOLAA, REGISTRATEE <!DOCTYPE html></h2>
+        <div class="mb-3">
+          <label for="idnombre" class="form-label">Ingrese nombre </label>
+          <input type="text" class="form-control" id="idnombre" [(ngModel)]="store.nombre" name="nombre" >
+        </div>
+    
+        <div class="mb-3">
+            <label for="idapellido" class="form-label">Ingrese Apellido</label>
+            <input type="text" class="form-control" id="idapellido" [(ngModel)]="store.apellido" name="apellido" >
+        </div>
+    
+        <div class="mb-3">
+            <label for="iddni" class="form-label">Ingrese dni</label>
+            <input type="email" class="form-control" id="iddni" [(ngModel)]="store.dni" name="dni">
+        </div>
+    
+        <div class="mb-3">
+            <label for="idemail" class="form-label">Ingrese gmail</label>
+            <input type="email" class="form-control" id="idemail" [(ngModel)]="store.email" name="email">
+        </div>
+    
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="idactivo" [(ngModel)]="store.active" name="activo">
+          <label class="form-check-label" for="idactivo">Activo?</label>
+        </div>
+        <button type="submit" (click)="registro()" class="btn btn-primary">REGISTRATE</button>
+    </form>
+    
+    <br>
+    <h3>Listados de Personas</h3>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">dni</th>
+            <th scope="col">email</th>
+            <th scope="col">activo?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let s of stores">
+            <th scope="row">1</th>
+            <td>{{s.nombre}}</td>
+            <td>{{s.apellido}}</td>
+            <td>{{s.dni}}</td>
+            <td>{{s.email}}</td>
+            <td>{{s.active}}</td>
+          </tr>
+        </tbody>
+    </table>
+</main>
