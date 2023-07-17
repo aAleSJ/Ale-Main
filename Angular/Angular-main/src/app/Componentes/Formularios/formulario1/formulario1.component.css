@@ -1,0 +1,20 @@
+.cont-main{
+    display: flex;
+    align-items: start;
+    justify-content: center ;
+    background: black;
+    margin: auto;
+    width: 90%;
+    height: 509px;
+}
+
+form{
+    background: white;
+    
+    width:40%;
+}
+
+.table{
+    width: 700px;
+    margin: auto;
+}
