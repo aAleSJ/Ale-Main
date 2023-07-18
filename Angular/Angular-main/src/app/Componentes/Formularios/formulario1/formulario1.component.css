@@ -1,17 +1,22 @@
 .cont-main{
-    display: flex;
-    align-items: start;
-    justify-content: center ;
-    background: black;
+    background: none;
     margin: auto;
     width: 90%;
-    height: 509px;
-}
-
-form{
-    background: white;
     
-    width:40%;
+}
+.cont-main-hijo{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    height: 55%;
+}
+form{
+    color: white;
+    background: none;
+    margin: auto;
+    width: 45%;
+    
+    
 }
 
 .table{
