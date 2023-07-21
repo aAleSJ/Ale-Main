@@ -10,16 +10,46 @@
     width: 50%;
     height: 55%;
 }
+
+.cont-title{
+    display: flex;
+    
+    font-size: 35px;
+}
 form{
-    color: white;
     background: none;
     margin: auto;
+    color: white;
+    font-weight: 700;
     width: 45%;
     
     
 }
+input{
+    color: white;
+    background: none;
+    border: none;
+    border-radius: 0px;
+}
+input:hover{
+    color: white;
+    background: none;
+    border: none;
+    transition: 1s;
+    border-bottom: solid 1px white;
+}
+
+
 
 .table{
-    width: 700px;
     margin: auto;
+    width: 700px;
+
+}
+th{
+    color: white;
+    background: none;
+}td{
+    color: white;
+    background: none;
 }

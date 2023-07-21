@@ -10,10 +10,10 @@ export class InicioComponent {
 
   constructor(){
     this.productos= [
-      {titulo:'Monito 1',descripcion:'ale1',img:'https://http2.mlstatic.com/D_NQ_NP_829339-MLA52559264640_112022-O.webp',precio:'20.000'},
-      {titulo:'Monito 2',descripcion:'ale2',img:'https://http2.mlstatic.com/D_NQ_NP_829339-MLA52559264640_112022-O.webp',precio:'40.000'},
-      {titulo:'Monitor 3',descripcion:'ale3',img:'https://http2.mlstatic.com/D_NQ_NP_829339-MLA52559264640_112022-O.webp',precio:'60.000'},
-      {titulo:'Monitor 4',descripcion:'ale4',img:'https://http2.mlstatic.com/D_NQ_NP_829339-MLA52559264640_112022-O.webp',precio:'80.000'}
+      {titulo:'Monitor Gamer',descripcion:'Monitor gamer LG UltraGear 24GN60R LCD 23.8" negro 100V/240V',img:'https://http2.mlstatic.com/D_NQ_NP_829339-MLA52559264640_112022-O.webp',precio:'20.000'},
+      {titulo:'Monitor Gamer',descripcion:'Monitor gamer LG UltraGear 24GN60R LCD 23.8" negro 100V/240V',img:'https://http2.mlstatic.com/D_NQ_NP_829339-MLA52559264640_112022-O.webp',precio:'40.000'},
+      {titulo:'Monitor Gamer',descripcion:'Monitor gamer LG UltraGear 24GN60R LCD 23.8" negro 100V/240V',img:'https://http2.mlstatic.com/D_NQ_NP_829339-MLA52559264640_112022-O.webp',precio:'60.000'},
+      {titulo:'Monitor Gamer',descripcion:'Monitor gamer LG UltraGear 24GN60R LCD 23.8" negro 100V/240V',img:'https://http2.mlstatic.com/D_NQ_NP_829339-MLA52559264640_112022-O.webp',precio:'80.000'}
       
     ]
   }

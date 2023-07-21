@@ -1,0 +1,12 @@
+.cont-button{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+button{
+    background: red;
+    color: white;
+    border: solid 1px white;
+    padding: 5px;
+    
+}

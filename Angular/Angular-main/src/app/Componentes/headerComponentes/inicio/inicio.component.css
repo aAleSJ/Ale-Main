@@ -10,4 +10,7 @@
 }
 .card{
     margin: auto;
+    background: none;
+    color: white;
+    border: solid 1px white;
 }

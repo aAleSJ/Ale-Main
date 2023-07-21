@@ -2,29 +2,33 @@
 <div class="cont-main">
    <div class="cont-main-hijo">
     <form>
+      <div class="cont-title">
+        REGISTRATE  :D
+      </div>
+      <br>
       <div class="mb-3">
         <label for="idnombre" class="form-label">INGRESE NOMBRE </label>
-        <input type="text" class="form-control" id="idnombre"  [(ngModel)]="formulario1.nombre" name="nombre">
+        <input type="text" class="form-control" id="idnombre" placeholder="Nombre" [(ngModel)]="formulario1.nombre" name="nombre">
       </div>
       <div class="mb-3">
         <label for="idapellido" class="form-label">Ingrese Apellido</label>
-        <input type="text" class="form-control" id="idapellido" [(ngModel)]="formulario1.apellido" name="Apellido">
+        <input type="text" class="form-control" id="idapellido" placeholder-="Apellido" [(ngModel)]="formulario1.apellido" name="Apellido">
       </div>
       <div class="mb-3">
           <label for="iddni" class="form-label">INGRESE DNI</label>
-          <input type="number" class="form-control" id="iddni" [(ngModel)]="formulario1.dni" name="dni">
+          <input type="number" class="form-control" id="iddni" placeholder="Dni" [(ngModel)]="formulario1.dni" name="dni">
       </div>
       <div class="mb-3">
           <label for="idemail" class="form-label">INGRESE EMAIL</label>
-          <input type="email" class="form-control" id="idemail" [(ngModel)]="formulario1.email" name="email">
+          <input type="email" class="form-control" id="idemail" placeholder="Email" [(ngModel)]="formulario1.email" name="email">
       </div>
       <div class="mb-3">
           <label for="idcontrasena" class="form-label">INGRESE CONTRASEÑA</label>
-          <input type="password" class="form-control" id="idcontrasena" [(ngModel)]="formulario1.contrasena" name="contraseñn">
+          <input type="password" class="form-control" id="idcontrasena" placeholder="Contraseña" [(ngModel)]="formulario1.contrasena" name="contraseñn">
       </div>
       <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input" id="idactivo" [(ngModel)]="formulario1.activo" name="activo">
-        <label class="form-check-label" for="idactivo">Activo?</label>
+        <label class="form-check-label" for="idactivo">ACTIVO</label>
       </div>
       <button type="submit" class="btn btn-primary" (click)="registrar()">REGISTRAR</button>
     </form>
