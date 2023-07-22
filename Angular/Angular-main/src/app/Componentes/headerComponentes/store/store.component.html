@@ -2,3 +2,13 @@
 <div class="cont-button">
     <button type="button" [routerLink]="['formulario1']">Formulario</button>
 </div>
+<div class="cont-main">
+    <div class="card" style="width: 18rem;" *ngFor="let r of registro">
+    <img src="{{r.img}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{r.titulo}}</h5>
+          <p class="card-text">{{r.descripcion}}</p>
+          <input type="button" [routerLink]="['formulario1']" value="REGISTRATE">
+        </div>
+    </div>
+</div>
