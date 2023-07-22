@@ -4,7 +4,6 @@ import { InicioComponent } from './Componentes/headerComponentes/inicio/inicio.c
 import { StoreComponent } from './Componentes/headerComponentes/store/store.component';
 import { ContactosComponent } from './Componentes/headerComponentes/contactos/contactos.component';
 import { AyudaComponent } from './Componentes/headerComponentes/ayuda/ayuda.component';
-import { Formulario1 } from './models/modelsF1/formulario1';
 import { Formulario1Component } from './Componentes/Formularios/formulario1/formulario1.component';
 
 const routes: Routes = [
