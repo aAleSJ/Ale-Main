@@ -31,8 +31,9 @@ body::-webkit-scrollbar-thumb {
 .header-hijo{
     display: flex;
     align-items: center;
+    background: red;
     height: 45px;
-    width: 450px;
+    width: 800px;
     margin-left: 50px;
     
 }
@@ -186,4 +187,18 @@ img{
 
 p{      
     margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+.boludeo{
+    background: red;
+    width: 100%;
+    height: 200px;
 }
