@@ -1,129 +1,19 @@
 main{
-    display: flex;
     background: grey;
     width: 100%;
-    height: 90.6vh;
+    height: 100vh;
 }
-
-.cont1{
+form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: red;
-    width: 20%;
-    height: 95%;
-    margin: 10px;
-}
-.cont1-hijo0{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background: black;
-    width: 40%;
-    height: 30%;
-    margin: 10px;
-}
-.cont1-hijos0-bebe{
-    background: red;
-    width: 20px;
-    height: 40px;
-    margin: 10px;
-}
-.cont1-hijos0-bebe:hover{
-    background: blueviolet;
-    border-radius: 50%;
-    transition: 2s;
-}
-.circulo{
-    background: white;
-    border-radius: 50%;
-
-}
-.circulo:hover{
-    border-radius: 0px;
-    background: goldenrod;
-    transition: 2s;
-}
-.cont2{
-    background: blue;
-    width: 60%;
-    height: 95%;
-    margin: 10px;
+    margin: auto;
+    width: 30%;
 }
 
-.cont2-hijo1{
-    display: flex;
-    align-items: center;
-    background: black;
-    width: 98%;
-    height: 90px;
-    margin: 10px;
-}
-.cont2-hijos1-bebe{
-    background:white;
-    margin: 10px;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
 
-}
-.cont2-hijos1-bebe:hover{
-    border-radius: 0px;
-    background: yellow;
-    transition: 2s;
-}
 
-.cont-hijos2{
-    display: flex;
-    background: black;
-    width: 98%;
-    height: 500px;
-    margin: 10px;
-}
-.cont2-hijos2-bebe2{
-    background: grey;
-    width: 50%;
-    height: 96%;
-    margin: 10px;
-}
 
-.cont-hijos3{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background: black;
-    width: 98%;
-    height: 210px;
-    margin: 10px;
-}
-.cont-hijos3-bebe3{
-    background: white;
-    width: 20%;
-    height: 90%;
-    margin: 10px;
-}
-.cont3{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background: skyblue;
-    width: 20%;
-    height: 95%;
-    margin: 10px;
-}
-
-.cont3-hijos{ 
-    background: chocolate;
-    width: 44%;
-    height: 31%;
-    margin: 10px;
-}
-
-.cont3-hijos:hover{
-    background: black;
-    border-radius: 50%;
-    transition: 2s;
-    
+table{
+    margin: auto;
+    width:40%;
 }
